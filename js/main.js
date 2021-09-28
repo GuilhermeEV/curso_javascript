@@ -1,35 +1,35 @@
-/* Array
+var d = new Date();
 
-var lista = ["maça", "pêra", "laranja"];
+//alert(d.getMonth()+1); //o month ele sempre começa no 0, então é preciso somar + 1
+//alert(d.getMinutes());
+//alert(d.getDay());
+alert(d.getHours());
 
-//lista.push("uva"); //push para por
-//lista.pop(); //pop para tirar
-
-console.log(lista);
-
-//reverse mostra os elementos na ordem contrária
-
-//console.log imprime os elementos no console do navegador através do F12 ou "inspecionar elementos"
-
-//console.log(lista.reverse());
-
-//.toString mostra os elementos como uma string, no caso da lista, ele deixa de mostrar como uma array
-
-//console.log(lista);
-//console.log(lista.toString());
-//console.log(lista.join(" - "));
+/*
+var count;
+//laço de repetição for
+for(count=0; count <= 5; count++){
+    alert(count);
+}
 
 
-//console.log(lista[1]);
-//alert(lista[1])
+var count = 0;
+//laço de repetição while
+while (count <= 5){
+    console.log(count);
+    alert(count);
+    count++;
+    //count = count + 1;
+}
+
+var idade = prompt("Qual sua idade");
+//var idade = 18;
+
+//condicional if else
+
+if (idade >= 18){
+    alert("maior de idade");
+}else{
+    alert("menor de idade");
+};
 */
-
-//Dicionário
-
-//var fruta = {nome: "maça", cor: "vermelha"}
-var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "verde"}]
-
-console.log(frutas);
-alert(frutas[1].nome);
-//console.log(fruta.nome);
-//alert(fruta.cor);
