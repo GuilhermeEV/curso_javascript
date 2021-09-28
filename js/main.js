@@ -1,18 +1,35 @@
-var nome = "Guilherme Vanini";
-var idade = 21;
-var idade2 = 10;
-var n1 = 4;
-var n2 = 2;
-var frase = "Japão é um país tecnológico"
+/* Array
 
-//alert(nome + " tem " + idade + " anos");
-//alert(idade + idade2);
+var lista = ["maça", "pêra", "laranja"];
 
-console.log(nome);
-console.log(idade + idade2);
-console.log(frase.toLowerCase());
-console.log(n1 * n2);
-//console.log(frase.toUpperCase());
-//console.log(frase.replace("Japão", "China"));
+//lista.push("uva"); //push para por
+//lista.pop(); //pop para tirar
 
-//alert(frase.replace("Japão", "China"));
+console.log(lista);
+
+//reverse mostra os elementos na ordem contrária
+
+//console.log imprime os elementos no console do navegador através do F12 ou "inspecionar elementos"
+
+//console.log(lista.reverse());
+
+//.toString mostra os elementos como uma string, no caso da lista, ele deixa de mostrar como uma array
+
+//console.log(lista);
+//console.log(lista.toString());
+//console.log(lista.join(" - "));
+
+
+//console.log(lista[1]);
+//alert(lista[1])
+*/
+
+//Dicionário
+
+//var fruta = {nome: "maça", cor: "vermelha"}
+var frutas = [{nome: "maça", cor: "vermelha"}, {nome: "uva", cor: "verde"}]
+
+console.log(frutas);
+alert(frutas[1].nome);
+//console.log(fruta.nome);
+//alert(fruta.cor);
